@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/edgeipv6",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Edge validation gates for ipv6 inputs before they hit prod.",
+  "bin": {
+    "edgeipv6": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/edgeipv6.git"
+  },
+  "homepage": "https://theworker02.github.io/edgeipv6/",
+  "keywords": [
+    "edge",
+    "ipv6",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
